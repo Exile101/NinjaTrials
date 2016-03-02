@@ -1,0 +1,46 @@
+html,body
+{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	background-image: url('../img/b1.jpg');
+	background-size: 100% auto;
+	background-attachment: fixed;
+}
+
+nav
+{
+	position: fixed;
+	height: 100%;
+	width: 200px;
+	left: -120px;
+	top: 0;
+	z-index: 100;
+	background-color: #fff;
+	border-right: 1px groove rgba(0,0,0,0.4);
+}
+nav:hover
+{
+	left: 0;
+}
+section
+{
+	width: 100%;
+	min-height: 700px;
+}
+/* Common styles */
+.trans
+{
+	transition:all 0.5s;
+	-webkit-transition:all 0.5s;
+	-moz-transition:all 0.5s;
+	-o-transition:all 0.5s;
+}
+/* Sections */
+
+.home
+{
+	background-color: rgba(156,156,156,0.2);
+}
